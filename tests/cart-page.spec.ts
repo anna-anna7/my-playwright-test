@@ -23,4 +23,4 @@ test('장바구니 화면 진입 후 그 상품이 1개 있는지 확인하기',
     // 6. 장바구니 화면에 그 상품이 1개 있는지 확인
     await expect(page.locator('.cart_item')).toHaveCount(1);
 
-});
+});3
