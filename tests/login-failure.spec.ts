@@ -8,7 +8,7 @@ test('차단된 계정으로 로그인하면 차단 메시지가 뜬다', async 
     await loginPage.goto();
     await loginPage.login(USERS.lockedOut.username, USERS.lockedOut.password);
 
-    // 2. 차단 메시지가 뜨는지 확인
+    // 2. 차단 메시지가 뜨는지 확인ㅇㅇㅇ
     await expect(page.locator('[data-test="error"]'))
         .toHaveText('Epic sadface: Sorry, this user has been locked out.');
 
